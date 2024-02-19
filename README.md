@@ -88,7 +88,25 @@ Go to the vulnhub and download a vulnerable machine to check if SecurityOnion is
 
 Here is an easy box: Basic Pentesting 1
 
-1.Import the VM
+1. Import the VM
+2. Set the Network to Host-only adapter 1 (DO NOT CONNECT TO NAT)
+3. Power the Vulnhub machine
+4. Power up the kali machine
+5. Make sure kali is connected to 2 network interfaces using the “ifconfig” command
+6. Perform a Nmap scan for the Vulnhub IP ( Ex: nmap -sn 192.168.188.1–255)
+7. Once you find the IP perform another Nmap scan (Ex: nmap -sV -sC -T4 [Vulnhub IP])
+As we can see Security Onion has already picked up some activity from the Kali machine. You can explore the other tools like Kibana to check this too. This activity indicates the successful implementation of our network monitoring system, offering us valuable insights into potential security threats.
+
+## Summary
+
+That is the end of my mini SOC lab project. I hope you were able to learn something new and gain some hands-on knowledge about network monitoring and threat detection. With consistent practice and exploration, you can further improve your skills in this area and become adept at identifying and mitigating potential security threats in real time.
+
+S/O to DayCyberwox for the inspiration and resources for this project.
+
+# P.S :
+If you want to continue attacking and monitoring the machine here is a well-done [guide](https://www.youtube.com/watch?v=aUH7G1JICVw) from InfoSec Pat to help root it.
+
+
 
 
 
