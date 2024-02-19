@@ -59,7 +59,7 @@ This is a long process so read carefully
 14. Set automatic for updates
 15. Add your NAT network IP and Adapter 1 Host-only interface IP(you can find these at file> tools> network manage)
 16. Remove any software you won’t be using(Default is fine)
-17. choose a fake email address to log into for later use (ex: bob@seconion.com)
+17. For this project choose a fake email address to log into for later use (ex: bob@seconion.com)
 18. Select IP address > NTP yes > OK > SO-Allow NO
 19. Scroll down and select yes to install (this will take Long)
 20. Take note of the web interface URL for later use and reboot
