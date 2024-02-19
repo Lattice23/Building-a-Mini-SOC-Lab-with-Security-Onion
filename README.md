@@ -104,44 +104,4 @@ That is the end of my mini SOC lab project. I hope you were able to learn someth
 S/O to DayCyberwox for the inspiration and resources for this project.
 
 # P.S :
-If you want to continue attacking and monitoring the machine here is a well-done [guide](https://www.youtube.com/watch?v=aUH7G1JICVw) from InfoSec Pat to help root it.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-22. 
-
-
-
-  
+If you want to continue attacking and monitoring the machine here is a well-done [guide](https://www.youtube.com/watch?v=aUH7G1JICVw) from InfoSec Pat to help root it
